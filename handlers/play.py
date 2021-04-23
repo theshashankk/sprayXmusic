@@ -113,7 +113,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/akari.png")
+    image2 = Image.open("etc/akaribot.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -541,7 +541,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via Akari Music BoT 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via akariXmusic 😎🔥".format(
         message.from_user.mention()
         ),
     )
@@ -656,7 +656,7 @@ async def deezer(client: Client, message_: Message):
         qeue.append(appendable)
         await res.edit_text(f"✯Akari Music Bot✯= #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯Akari Music Bot✯=▶️ Playing.....")
+        await res.edit_text("✯AkariXmusic✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -781,12 +781,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯Akari Music Bot✯=#️⃣ Queued at position {position}",
+            caption=f"✯AkariXmusic✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯Akari Music Bot✯=▶️ Playing.....")
+        await res.edit_text("✯AkariXmusic✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
