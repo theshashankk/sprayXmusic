@@ -113,7 +113,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.jpg")
+    image2 = Image.open("etc/akari.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -220,7 +220,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)              
     else:
-        await message.reply('No VC instances running in this chat')
+        await message.reply('No VC instances running in this chat 🙄🙄')
 
 @Client.on_message(
     filters.command("player")
@@ -241,7 +241,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply('play'))
     else:
-        await message.reply('No VC assistant running in this chat')
+        await message.reply('No VC assistant running in this chat '🙄🙄)
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
@@ -428,7 +428,13 @@ async def play(_, message: Message):
                    invitelink = await _.export_chat_invite_link(chid)
                except:
                    await lel.edit(
-                       "<b>Add me as admin of yor group first</b>",
+                       "<b>Add me as admin of yor group first With</b>",
+                       "<b>Delete Message<b>",
+                       "<b>Ban User<b>". 
+                       "<b>Invite User via Link<b>",
+                       "<b>Pin message<b>",
+                       "<b>manage Voice Chat<b>",
+                       "<b>Than /admincache to refresh admin caches<b>",       
                    )
                    return
 
