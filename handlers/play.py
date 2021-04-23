@@ -428,13 +428,7 @@ async def play(_, message: Message):
                    invitelink = await _.export_chat_invite_link(chid)
                except:
                    await lel.edit(
-                       "<b>Add me as admin of yor group first With</b>",
-                       "<b>Delete Message<b>",
-                       "<b>Ban User<b>". 
-                       "<b>Invite User via Link<b>",
-                       "<b>Pin message<b>",
-                       "<b>manage Voice Chat<b>",
-                       "<b>Than /admincache to refresh admin caches<b>",       
+                       "<b>Add me as admin of yor group first With</b>",       
                    )
                    return
 
