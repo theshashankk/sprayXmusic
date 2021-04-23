@@ -1,11 +1,11 @@
-<h1 align="centre">DAISYXMUSIC V3 🎵</h1>
+<h1 align="centre">AKARIXMUSIC V3 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @DaisyXbot
+# Available on telegram as @AkariXmusic_BoT
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/9c4e0a886b3529e640f98.jpg">
 </p>
 
 <h2> Whats new 🔥 </h2>
