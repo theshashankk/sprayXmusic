@@ -220,7 +220,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)              
     else:
-        await message.reply('No VC instances running in this chat 🙄🙄')
+        await message.reply('No VC instances running in this chat ')
 
 @Client.on_message(
     filters.command("player")
@@ -241,7 +241,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply('play'))
     else:
-        await message.reply('No VC assistant running in this chat '🙄🙄)
+        await message.reply('No VC assistant running in this chat ')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
