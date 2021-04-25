@@ -1,9 +1,9 @@
 {
-  "name": "ShashankXmusic",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "Keywords" :"A Powerfull Tg Vc Bot To Play Music In Vc and Manage Ur group"
-  "logo": "https://i.pinimg.com/originals/97/08/1a/97081a743c19f515d26d298bd62af7ed.png",
-  "repository": "https://github.com/theshashankk/ShashankXmusic",
+    "name": "𝘊𝘖𝘍𝘍𝘐𝘕 𝙓 𝘔𝘜𝘚𝘐𝘊",
+    "logo": "https://i.pinimg.com/originals/97/08/1a/97081a743c19f515d26d298bd62af7ed.png",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+    "keywords": ["music", "voicechat", "telegram"],
+    "repository": "https://github.com/theshashankk/CoffinXmusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
