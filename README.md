@@ -51,8 +51,7 @@
 
 Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
 
-```
+
 ### Credits
 - [TheShashank](https://t.me/shashank_XD)
 - [Rishi](https://t.me/SpammerRishi_xD)
-```
