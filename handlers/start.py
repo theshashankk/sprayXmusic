@@ -11,10 +11,10 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgEAAxkBAAEJfnRggqv2ZG_NM2r1s_JWGM-jKyy0VwACCAEAAsH4GUSKW2K9CbpW3x8E")
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
+        f"""<b>Hey {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Developed By @Aru_bbu ❤
-\nTo add in your group contact us at @Akari_Support.
+And Also You Can Manage Ur Group.. ❤️
+\nTo add in your group contact us at @CoffinXsupport.
 \nUse the buttons below to know more about me.
  </b>""",
       
@@ -23,23 +23,23 @@ Developed By @Aru_bbu ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/Global_friends_chatting_group",
+                        "⚪ Support Group ⚪", url="https://t.me/CoffinXsupport",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚪ Developer ⚪", url="https://t.me/aru_bbu"
+                        "⚪ Channel ⚪", url="https://t.me/CoffinX_updates"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Channel ⚪", url="https://t.me/akariSupport"
+                        "⚪ Help ⚪", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Assistant ⚪", url="https://t.me/Akari_musicbotAssitant?startgroup=true"
+                        "⚪ Assistant ⚪", url="https://t.me/CoffinXAssitant?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/Akari_MusicBoT?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
                     ) 
                 ]
             ]
