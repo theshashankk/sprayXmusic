@@ -13,7 +13,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hey {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-And Also You Can Manage Ur Group.. ❤️
+And Also I Can Manage Ur Group.. ❤️
 \nTo add in your group contact us at @CoffinXsupport.
 \nUse the buttons below to know more about me.
  </b>""",
@@ -53,12 +53,13 @@ And Also You Can Manage Ur Group.. ❤️
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+        "Hey I'm Alive..👻 And Ready To Play Music For You 🎛️
+        💁🏻‍♂️ Do you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/AkariSupport"
+                        "🔊 Channel", url="https://t.me/CoffinX_updates"
                     )
                 ],[
                     InlineKeyboardButton(
