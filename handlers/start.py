@@ -46,16 +46,10 @@ And Also I Can Manage Ur Group.. ❤️
         )
     )
 
-@Client.on_message(
-    filters.command("start")
-    & filters.group
-    & ~ filters.edited
-)
-async def start(client: Client, message: Message):
-    await message.reply_text(
-        "Hey I'm Alive..👻 And Ready To Play Music For You 🎛️",
-        💁🏻‍♂️ Do you want to search for a YouTube video?",
-        reply_markup=InlineKeyboardMarkup(
+@Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
+async def gstart(_, message: Message):
+      await message.reply_text("""**𝘏𝘦𝘺 𝘐'𝘮 𝘈𝘭𝘪𝘷𝘦..👻 𝘈𝘯𝘥 𝘙𝘦𝘢𝘥𝘺 𝘛𝘰 𝘗𝘭𝘢𝘺 𝘔𝘶𝘴𝘪𝘤 𝘍𝘰𝘳 𝘠𝘰𝘶 🎛️**""",
+      reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
