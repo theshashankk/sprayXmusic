@@ -223,7 +223,22 @@ def r_ply(type_):
         duration = round(audio.duration / 60)
         views = "Locally added"
         keyboard = InlineKeyboardMarkup(
-
+            [
+                InlineKeyboardButton('⏹', 'leave'),
+                InlineKeyboardButton('⏸', 'puse'),
+                InlineKeyboardButton('▶️', 'resume'),
+                InlineKeyboardButton('⏭', 'skip')
+                
+            ],
+            [
+                InlineKeyboardButton('Playlist 📖', 'playlist'),
+                
+            ],
+            [       
+                InlineKeyboardButton("❌ Close",'cls')
+            ]        
+        ]
+    )
 @Client.on_message(
     filters.command("current")
     & filters.group
