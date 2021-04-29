@@ -34,7 +34,7 @@ And Also You Can Manage Ur Group.. ❤️
                         "⚪ Help ⚪", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Assistant ⚪", url="https://t.me/CoffinXAssitant?startgroup=true"
+                        "⚪ Assistant ⚪", url="https://t.me/CoffinXAssistant?startgroup=true"
                     )
                 ],
                 [
