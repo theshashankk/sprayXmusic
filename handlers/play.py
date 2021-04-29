@@ -218,27 +218,25 @@ def r_ply(type_):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/638c20c44ca418c8b2178.jpg"
+        thumb_name = "https://telegra.ph/file/43dab79bbbc53743b8433.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
         keyboard = InlineKeyboardMarkup(
-            [
-                InlineKeyboardButton('⏹', 'leave'),
-                InlineKeyboardButton('⏸', 'puse'),
-                InlineKeyboardButton('▶️', 'resume'),
-                InlineKeyboardButton('⏭', 'skip')
-                
-            ],
-            [
-                InlineKeyboardButton('Playlist 📖', 'playlist'),
-                
-            ],
-            [       
-                InlineKeyboardButton("❌ Close",'cls')
-            ]        
-        ]
-    )
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="Moi Op Wale Master",
+                            url=f"https://t.me/xD_Rishi")
+
+                    ]
+                ]
+            )
+        requested_by = message.from_user.first_name
+        await generate_cover(requested_by, title, views, duration, thumbnail)  
+        file_path = await converter.convert(
+            (await message.reply_to_message.download(file_name))
+            if not path.isfile(path.join("downloads", file_name)) else file_name
 @Client.on_message(
     filters.command("current")
     & filters.group
