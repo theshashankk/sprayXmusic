@@ -53,7 +53,7 @@ And Also I Can Manage Ur Group.. ❤️
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "Hey I'm Alive..👻 And Ready To Play Music For You 🎛️
+        "Hey I'm Alive..👻 And Ready To Play Music For You 🎛️",
         💁🏻‍♂️ Do you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
             [
