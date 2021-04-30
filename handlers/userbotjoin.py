@@ -39,3 +39,14 @@ async def addchannel(client, message):
     await message.reply_text(
             "<b>helper userbot joined your chat 👻</b>",
         )
+    
+@USER.on_message(filters.group & filters.command(["userbotleave"]))
+async def rem(USER, message):
+    try:
+        await USER.leave_chat(message.chat.id)
+    except:  
+        await message.reply_text(
+            f"<b>User couldn't leave your group!☹️ May be floodwaits."
+            "\n\nOr manually kick me from to your Group</b>",
+        )
+        return
