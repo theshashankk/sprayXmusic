@@ -205,8 +205,8 @@ def r_ply(type_):
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
-        keyboard = InlineKeyboardMarkup(
-                [
+        mar = InlineKeyboardMarkup(
+        [
             [
                 InlineKeyboardButton('⏹', 'leave'),
                 InlineKeyboardButton('⏸', 'puse'),
@@ -222,7 +222,7 @@ def r_ply(type_):
                 InlineKeyboardButton("❌ Close",'cls')
             ]        
         ]
-    )        
+    )
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)  
         file_path = await converter.convert(
