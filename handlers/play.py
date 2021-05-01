@@ -228,7 +228,6 @@ def r_ply(type_):
         file_path = await converter.convert(
             (await message.reply_to_message.download(file_name))
             if not path.isfile(path.join("downloads", file_name)) else file_name
-return mar
 
 @Client.on_message(
     filters.command("current")
