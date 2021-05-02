@@ -68,13 +68,9 @@ async def gstart(_, message: Message):
     )
 
 
-@Client.on_message(
-    filters.command("help")
-    & filters.private
-    & ~ filters.edited
-)
-async def help(client: Client, message: Message):
-    await message.reply_text(
+@Client.on_message(filter.command("help") & ~filter.private & ~filter.channel)
+async def gstart(_, message: Message):
+      await message.reply_text(
         f"""<b>Here Is Cmd Of CoffinXmusic !
                 ╭───────•◈•───────╮
 \n/play <song name> - play song you requested
