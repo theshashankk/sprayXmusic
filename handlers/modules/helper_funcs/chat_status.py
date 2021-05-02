@@ -4,7 +4,6 @@ from cachetools import TTLCache
 from threading import RLock
 from handlers import (
     DEL_CMDS,
-    DEL_CMDS,
     DEV_USERS,
     DRAGONS,
     SUPPORT_CHAT,
