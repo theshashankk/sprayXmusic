@@ -72,7 +72,7 @@ async def gstart(_, message: Message):
 async def gstart(_, message: Message):
       await message.reply_text(
         f"""<b>Here Is Cmd Of CoffinXmusic !
-                ╭───────•◈•───────╮
+╔━━━━━━━━⊰✦⊱━━━━━━━━╗
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
 /splay <song name> - play song you requested via jio saavn
@@ -91,7 +91,7 @@ async def gstart(_, message: Message):
 /end - stop music play
 /userbotjoin - invite assistant to your chat
 /admincache - Refresh admin list
-                ╰───────•◈•───────╯
+╚━━━━━━━━⊰✦⊱━━━━━━━━╝
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
