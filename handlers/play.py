@@ -533,10 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**Playing**{}".format(
-        caption="🏷 Name: {title}
-        caption="⏱ Duration: 4:18
-        caption="🎧 Requested by: {}            
+        caption= "Now Playing** in {} 👻 via CoffinXmusic".format(            
         message.from_user.mention()
         ),
     )
