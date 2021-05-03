@@ -13,8 +13,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hey {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-And Also I Can Manage Ur Group.. ❤️
-\nTo add in your group contact us at @CoffinXsupport.
+I Can Play Music Without Lag.. ❤️
+\nTo add in your group contact us at @SPR4YGOD.
 \nUse the buttons below to know more about me.
  </b>""",
       
@@ -24,7 +24,7 @@ And Also I Can Manage Ur Group.. ❤️
                 [
                     InlineKeyboardButton(
                         "⚪ Support Group ⚪", url="https://t.me/CoffinXsupport",
-                    )
+                  )
                 ],
                 [
                     InlineKeyboardButton(
@@ -53,7 +53,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/CoffinX_updates"
+                        "Moi Owner", url="https://t.me/SPR4YGOD"
                     )
                 ],[
                     InlineKeyboardButton(
