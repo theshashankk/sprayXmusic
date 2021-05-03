@@ -75,7 +75,7 @@ async def gstart(_, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Here Is Cmd Of CoffinXmusic !
+        f"""<b>Here Is Cmd Of Music Bot !
 ╔━━━━━━━━⊰✦⊱━━━━━━━━╗
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
@@ -101,14 +101,14 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/CoffinX_updates"
+                        "Moi Owner", url="https://t.me/SPR4YGOD"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "🚑 Support Group", url="https://t.me/CoffinXsupport"
+                        "Channel", url="https://t.me/CoffinX_updates"
                     ),
                     InlineKeyboardButton(
-                        "➕Add CoffinX in your group➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
+                        "➕Add Me in your group➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
                     )
                 ]
             ]
