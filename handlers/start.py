@@ -19,12 +19,13 @@ I Can Play Music Without Lag.. ❤️
  </b>""",
       
        
+        
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚪ Support Group ⚪", url="https://t.me/CoffinXsupport",
-                  )
+                        "⚪ Moi Owner ⚪", url="https://t.me/SPR4YGOD",
+                    )
                 ],
                 [
                     InlineKeyboardButton(
@@ -34,7 +35,7 @@ I Can Play Music Without Lag.. ❤️
                         "⚪ Help ⚪", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        "⚪ Assistant ⚪", url="https://t.me/CoffinXAssistant?startgroup=true"
+                        "⚪ SUPPORT group ⚪", url="https://t.me/CoffinXAssistant?startgroup=true"
                     )
                 ],
                 [
