@@ -1,0 +1,40 @@
+{
+    "name": "Khufiya Bot",
+    "logo": "https://i.pinimg.com/originals/97/08/1a/97081a743c19f515d26d298bd62af7ed.png",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+    "keywords": ["music", "voicechat", "telegram"],
+    "repository": "https://github.com/theshashankk/sprayXmusic",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": ""
+    },
+    "API_ID": {
+      "description": "App ID from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "App hash from my.telegram.org/apps",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
