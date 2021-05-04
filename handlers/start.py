@@ -40,7 +40,7 @@ I Can Play Music Without Lag.. ❤️
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/KHUFIYAN_VC_BOT?startgroup=true"
                     ) 
                 ]
             ]
@@ -106,10 +106,10 @@ async def help(client: Client, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/CoffinX_updates"
+                        "Group", url="https://t.me/KHUFIYAN_ADDA"
                     ),
                     InlineKeyboardButton(
-                        "➕Add Me in your group➕", url="https://t.me/CoffinXmusic_BoT?startgroup=true"
+                        "➕Add Me in your group➕", url="https://t.me/KHUFIYAN_VC_BOT?startgroup=true"
                     )
                 ]
             ]
