@@ -29,13 +29,13 @@ I Can Play Music Without Lag.. ❤️
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚪ Channel ⚪", url="https://t.me/CoffinX_updates"
+                        "⚪ Channel ⚪", url="https://t.me/ABOUTSPRAY"
                     ),
                     InlineKeyboardButton(
                         "⚪ Help ⚪", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        "⚪ SUPPORT group ⚪", url="https://t.me/CoffinXAssistant?startgroup=true"
+                        "⚪ SUPPORT group ⚪", url="https://t.me/KHUFIYAN_ADDA"
                     )
                 ],
                 [
